@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:corners="5dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:background="@drawable/background1"
+        >
+
+        <Button
+            android:id="@+id/BtnPlay"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="Chơi ngay" />
+
+        <Button
+            android:id="@+id/BtnTutorial"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnPlay"
+            android:layout_centerHorizontal="true"
+            android:text="Hướng Dẫn"
+            />
+
+        <Button
+            android:id="@+id/BtnBack"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnTutorial"
+            android:layout_centerHorizontal="true"
+            android:text="Thoát" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
